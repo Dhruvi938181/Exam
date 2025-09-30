@@ -1,0 +1,39 @@
+{
+  "rooms": [
+    {
+      "id": "1",
+      "type": "Deluxe",
+      "price": 200,
+      "available": true
+    },
+    {
+      "id": "2",
+      "type": "Suite",
+      "price": 400,
+      "available": false
+    }
+  ],
+  "reservations": [
+    {
+      "id": "1",
+      "roomId": 1,
+      "guestName": "John Doe",
+      "checkIn": "2025-09-30",
+      "checkOut": "2025-10-02"
+    },
+    {
+      "id": "2",
+      "roomId": 2,
+      "guestName": "amit",
+      "checkIn": "2025-09-25",
+      "checkOut": "2025-11-05"
+    },
+    {
+      "id": "224f",
+      "guestName": "vishva",
+      "roomId": "3",
+      "checkIn": "2025-10-03",
+      "checkOut": "2025-10-09"
+    }
+  ]
+}
